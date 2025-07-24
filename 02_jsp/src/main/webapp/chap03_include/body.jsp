@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-    <%
+<%
   // 요청 파라미터에 "홈페이지" 추가 시 인코딩 해서 넣기 위해서
   request.setCharacterEncoding("UTF-8");
 %>
@@ -32,3 +32,5 @@
   3. 파라미터 전달이 불가능합니다.
 --%>
 <%@ include file="footer.jsp" %>
+
+
